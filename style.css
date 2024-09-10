@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #191919;
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.email{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    align-self: flex-start;
+    margin-left: auto; 
+    width: 75px;
+    height: 75px;
+    background-color: #DAD7CD;
+    border-radius: 20px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tabs{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ent{
+    position: relative;
+    align-items: center;
+    width: 125px;
+    height: 250px;
+    background-color: #DAD7CD;
+    border-radius: 20px;
+    margin: 25px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amz{
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background-color: #DAD7CD;
+    border-radius: 20px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coding{
+    position: relative;
+    width: 250px;
+    height: 125px;
+    background-color: #DAD7CD;
+    border-radius: 20px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socials{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #DAD7CD;
+    border-radius: 20px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+a {
+    width: 75px;
+    height: 75px;
+    margin: 12.5px;
+    position: relative;
+    fill: #588157;
+    transition: fill 0.5s;
+}
+
+a:hover {
+    fill: #A3B18A;
+}
+
