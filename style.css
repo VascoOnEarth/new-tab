@@ -61,7 +61,7 @@ p{
     flex-wrap: wrap;
 }
 
-.amz{
+.ba{
     position: relative;
     width: 125px;
     height: 125px;
@@ -109,10 +109,12 @@ a {
     margin: 12.5px;
     position: relative;
     fill: #588157;
-    transition: fill 0.5s;
+    color: #588157;
+    transition: fill 0.5s, color 0.5s;
 }
 
 a:hover {
     fill: #A3B18A;
+    color: #A3B18A;
 }
 
